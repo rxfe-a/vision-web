@@ -30,8 +30,58 @@
         "script": "require(14314013653):button('RBLX_USERNAME')"
     },
     {
-        "name": "Chat Bypass",
+        "name": "War Helicopter",
         "icon": "externa/imagen/script.png",
-        "script": "print('Coming Soon!')"
+        "script": "require(12620186035).Huey('RBLX_USERNAME')"
+    },
+    {
+        "name": "FakeVR",
+        "icon": "externa/imagen/script.png",
+        "script": "require(6223977609)['FakeVr']('RBLX_USERNAME')"
+    },
+    {
+        "name": "Infinite Yield",
+        "icon": "externa/imagen/script.png",
+        "script": "require(12151433701)('RBLX_USERNAME')"
+    },
+    {
+        "name": "Reality Glitcher",
+        "icon": "externa/imagen/script.png",
+        "script": "require(6223977609)['RealityGlitcher']('RBLX_USERNAME')"
+    },
+    {
+        "name": "CHANCE",
+        "icon": "externa/imagen/script.png",
+        "script": "require(6223977609)['Chance']('RBLX_USERNAME')"
+    },
+    {
+        "name": "Tesseract",
+        "icon": "externa/imagen/script.png",
+        "script": "require(6223977609)['Tesseract']('RBLX_USERNAME')"
+    },
+    {
+        "name": "Banana",
+        "icon": "externa/imagen/script.png",
+        "script": "require(6223977609)['Banana']('RBLX_USERNAME')"
+    },
+    {
+        "name": "Mr Bye Bye",
+        "icon": "externa/imagen/script.png",
+        "script": "require(6515226671).load('YourNameHere') "
+    },
+    {
+        "name": "Mr Bye Bye Mini",
+        "icon": "externa/imagen/script.png",
+        "script": "require(5629629397).load('YourNameHere') "
+    },
+    {
+        "name": "Mr Bye Bye Giant",
+        "icon": "externa/imagen/script.png",
+        "script": "require(5630545228).load('YourNameHere') "
+    },
+    {
+        "name": "Lost Psygen",
+        "icon": "externa/imagen/script.png",
+        "script": "require(6223977609)['Lost Psygen']('RBLX_USERNAME')"
     }
 ] 
