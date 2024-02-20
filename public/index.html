@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..200,0..1,-50..100" />
+    <link rel="stylesheet" href="./externa/style.css">
+</head>
+<body>
+    <nav class="topbar">
+        <img src="externa/imagen/vision-logo.png" class="logo-elemen">
+        <div class="centro">
+            <div class="TopBarButton"onclick="executor()">
+                <span class="material-symbols-outlined" >
+                    deployed_code
+                    </span>
+                    <p>Executor</p>
+            </div>
+            <div class="TopBarButton" style="color: rgb(81, 81, 81);" onclick="ScriptHub()">
+                <span class="material-symbols-outlined">
+                    description
+                    </span>
+                    <p>Script Hub</p>
+            </div>
+            <div class="TopBarButton" style="color: rgb(81, 81, 81);" onclick="document.getElementById('settings_box').style.display = 'flex';">
+                <span class="material-symbols-outlined">
+                    settings
+                    </span>
+                    <p>Settings</p>
+            </div>
+            <div class="TopBarButton" style="color: rgb(81, 81, 81);">
+                <span class="material-symbols-outlined">
+                    open_in_new
+                    </span>
+                    <p>Open Roblox</p>
+            </div>
+        </div>
+    </nav>
+    <div class="execution" id="execu">
+        <div class="Sidebar">
+            <button class="SDE_Bar" style="margin-top: 5px;" id="executebutton">
+                <span class="material-symbols-outlined">
+                    play_arrow
+                    </span>
+            </button>
+            <button class="SDE_Bar" onclick="document.getElementById('textbox').value = '';">
+                <span class="material-symbols-outlined">
+                    backspace
+                    </span>
+            </button>
+            <button class="SDE_Bar" onclick="downloadLuaFile()">
+                <span class="material-symbols-outlined">
+                    download
+                    </span>
+            </button>
+            <button class="SDE_Bar">
+                <span class="material-symbols-outlined">
+                    upload_file
+                    </span>
+            </button>
+            <button class="SDE_Bar" style="margin-top: 220px;">
+                <span class="material-symbols-outlined">
+                    view_in_ar
+                    </span>
+            </button>
+            <button class="SDE_Bar">
+                <span class="material-symbols-outlined">
+                    refresh
+                    </span>
+            </button>
+        </div>
+        <div class="TerminalPart">
+            <textarea id="textbox" placeholder="Write your script Here!" wrap="hard" spellcheck="false">print('Vision is Working!')</textarea>
+        </div>
+    </div>
+    <div class="settings" style="display: none;" id="settings_box">
+        <div class="TitleBarSettings">
+            <h1 class="sts">Settings</h1>
+            <button class="x_button" onclick="document.getElementById('settings_box').style.display = 'none'">X</button>
+        </div>
+        <input type="text" placeholder="Key" id="KeyBox">
+        <input type="text" placeholder="Username" id="Username">
+        <button class="ApplySettings" id="apply_config"> Apply </button>
+    </div>
+    <div class="ScriptHub" id="SHUB" style="display: none;">
+        <div class="ScriptBox">
+            <div class="ImageBox">
+                <img src="./externa/imagen/script.png">
+            </div>
+            <div class="TitleParts">
+                <p>Dex</p>
+                <button class="runButton">▶</button>
+            </div>
+        </div>
+    </div>
+<script src="externa/server.js"></script>
+</body>
+</html>

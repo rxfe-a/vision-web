@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: #0D0D0D;
+        }
+
+        .topbar {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            height: 65px;
+        }
+
+        .logo-elemen {
+            width: 200px;
+            height: 65px;
+            margin-left: 15px;
+        }
+
+        .centro {
+            width: 75%;
+            height: 65px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            user-select: none;
+        }
+
+        .TopBarButton {
+            margin-left: -5px;
+            gap: 8px;
+            color: white;
+            width: 165px;
+            border-radius: 8px;
+            font-size: 24px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .TopBarButton:hover {
+            background-color: rgb(39, 39, 39);
+        }
+        .TopBarButton p {
+            font-family: "Montserrat", sans-serif;
+            font-size: 18px;
+        }
+
+        .TopBarButton span {
+            font-size: 28px;
+        }
+
+        .execution {
+            width: 100%;
+            gap: 10px;
+            height: 90vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Sidebar {
+            align-items: center;
+            height: 85vh;
+            border-radius: 8px;
+            width: 90px;
+            display: flex;
+            flex-direction: column;
+            background-color: #151515;
+        }
+
+        .TerminalPart {
+            height: 85vh;
+            border-radius: 8px;
+            width: 85%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #151515;
+        }
+
+        #textbox {
+            width: 98%;
+            height: 95%;
+            border: none;
+            background-color: #1a1a1a;
+            color: white;
+            border-radius: 8px;
+            resize: none;
+            
+        }
+
+        #textbox:focus {
+            border: none;
+        }
+
+        .SDE_Bar {
+            width: 60px;
+            height: 60px;
+            border: none;
+            display: flex;
+            justify-content: center;
+            color: #4B4B4B;
+            background-color: transparent;
+            align-items: center;
+            border-radius: 5px;
+        }
+
+        .SDE_Bar span {
+            font-size: 50px;
+        }
+
+        .SDE_Bar:hover {
+            background-color: #3a3a3a;
+        } 
+
+        .settings {
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            top: 50%;
+            align-items: center;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            height: 500px;
+            background-color: rgb(23, 23, 23);
+            border-radius: 10px;
+            z-index: 999;
+        }
+
+        .TitleBarSettings {
+            display: flex;
+            flex-direction: row;
+            color: white;
+            align-items: center;
+            width: 100%;
+            font-family: "Montserrat", sans-serif;
+            height: 50px;
+        }
+        
+
+        .x_button {
+            width: 40px;
+            height: 40px;
+            background-color: transparent;
+            border: none;
+            border-radius: 7px;
+            margin-left: 60%;
+            font-size: 29px;
+            color: white;
+        }
+
+        .sts {
+            font-size: 24px;
+            font-weight: 500;
+            margin-left: 10px;
+        }
+
+        #KeyBox {
+            width: 80%;
+            height: 30px;
+            margin-top: 15px;
+            border: none;
+            background-color: rgb(44, 44, 44);
+            border-radius: 8px;
+            font-family: "Montserrat", sans-serif;
+            color: white;
+            text-align: center;
+        }
+        #Username {
+            margin-top: 8px;
+            width: 80%;
+            height: 30px;
+            border: none;
+            background-color: rgb(44, 44, 44);
+            border-radius: 8px;
+            font-family: "Montserrat", sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        .ApplySettings {
+            margin-top: 8px;
+            color: white;
+            border-radius: 8px;
+            width: 80%;
+            border: none;
+            height: 30px;
+            background-color: rgb(101, 27, 126);
+        }
+
+        .ScriptHub {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            display: none;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 5px;
+            flex-direction: row;
+            gap: 10px;
+            height: 90vh;
+            display: flex;
+        }
+
+        .ScriptBox {
+            width: 290px;
+            border-radius: 8px;
+            height: 200px;
+            background-color: #0c0c0c;
+            border: 2px solid #1a1a1a;
+        }
+
+        .ImageBox {
+            border: 15px;
+            width: 100%;
+            height: 135px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .TitleParts {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+            height: 65px;
+        }
+
+        .TitleParts p {
+            color: white;
+            font-size: 22px;
+            font-family: "Montserrat", sans-serif;
+            margin-left: 15px;
+        }
+
+        .runButton {
+            border: none;
+            width: 40px;
+            margin-left: auto;
+            margin-right: 5px;
+            height: 40px;
+            background-color: rgb(47, 193, 47);
+            border-radius: 8px;
+            color: white;
+        }
+
+        .ImageBox img {
+            width: 95%;
+            background-color: #111111;
+            border-radius: 8px;
+            height: 93%;
+        }

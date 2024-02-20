@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Dex",
+        "icon": "externa/imagen/script.png",
+        "script": "require(14572394952)('RBLX_USERNAME')"
+    },
+    {
+        "name": "Respawn",
+        "icon": "externa/imagen/script.png",
+        "script": "game:GetService('Players').RBLX_USERNAME:LoadCharacter()"
+    },
+    {
+        "name": "R6",
+        "icon": "externa/imagen/script.png",
+        "script": "require(3436957371):r6('RBLX_USERNAME')"
+    },
+    {
+        "name": "Katanirst",
+        "icon": "externa/imagen/script.png",
+        "script": "require(8038057972).CLoad('RBLX_USERNAME')"
+    },
+    {
+        "name": "Refinery",
+        "icon": "externa/imagen/script.png",
+        "script": "require(14080317322).Refinary()"
+    },
+    {
+        "name": "The Button",
+        "icon": "externa/imagen/script.png",
+        "script": "require(14314013653):button('RBLX_USERNAME')"
+    },
+    {
+        "name": "Chat Bypass",
+        "icon": "externa/imagen/script.png",
+        "script": "print('Coming Soon!')"
+    }
+] 
