@@ -67,17 +67,17 @@
     {
         "name": "Mr Bye Bye",
         "icon": "externa/imagen/script.png",
-        "script": "require(6515226671).load('YourNameHere') "
+        "script": "require(6515226671).load('RBLX_USERNAME') "
     },
     {
         "name": "Mr Bye Bye Mini",
         "icon": "externa/imagen/script.png",
-        "script": "require(5629629397).load('YourNameHere') "
+        "script": "require(5629629397).load('RBLX_USERNAME') "
     },
     {
         "name": "Mr Bye Bye Giant",
         "icon": "externa/imagen/script.png",
-        "script": "require(5630545228).load('YourNameHere') "
+        "script": "require(5630545228).load('RBLX_USERNAME') "
     },
     {
         "name": "Lost Psygen",
@@ -107,11 +107,16 @@
     {
         "name": "SledgeHammer",
         "icon": "externa/imagen/skedgehammer.png",
-        "script": "require(8038037940).CLoad('YourNameHere')"
+        "script": "require(8038037940).CLoad('RBLX_USERNAME')"
     },
     {
         "name": "Mystic Tools",
         "icon": "externa/imagen/mystic.png",
         "script": "require(4780399515).load('RBLX_USERNAME')"
+    },
+    {
+        "name": "Topkek V3",
+        "icon": "externa/imagen/script.png",
+        "script": "require(2609384717).load('RBLX_USERNAME')"
     }
 ] 
