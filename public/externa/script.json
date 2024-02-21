@@ -2,7 +2,7 @@
     {
         "name": "Dex",
         "icon": "externa/imagen/script.png",
-        "script": "require(14572394952)('RBLX_USERNAME')"
+        "script": "require(14572394952)('RBLX_USERNAME') wait(5) game:GetService('Players').Name = 'Players'"
     },
     {
         "name": "Respawn",
@@ -83,5 +83,35 @@
         "name": "Lost Psygen",
         "icon": "externa/imagen/script.png",
         "script": "require(6223977609)['Lost Psygen']('RBLX_USERNAME')"
+    },
+    {
+        "name": "Ban Hammer",
+        "icon": "externa/imagen/script.png",
+        "script": "require(5448035802).Hammer('RBLX_USERNAME','BanHammer')"
+    },
+    {
+        "name": "Lunatic",
+        "icon": "externa/imagen/lunatic.png",
+        "script": "require(5813708464).load('RBLX_USERNAME')"
+    },
+    {
+        "name": "Reality Orb",
+        "icon": "externa/imagen/orb.png",
+        "script": "require(4780399515).load('RBLX_USERNAME')"
+    },
+    {
+        "name": "Siren Head",
+        "icon": "externa/imagen/siren.png",
+        "script": "require(5239955586).Dark('RBLX_USERNAME')"
+    },
+    {
+        "name": "SledgeHammer",
+        "icon": "externa/imagen/skedgehammer.png",
+        "script": "require(8038037940).CLoad('YourNameHere')"
+    },
+    {
+        "name": "Mystic Tools",
+        "icon": "externa/imagen/mystic.png",
+        "script": "require(4780399515).load('RBLX_USERNAME')"
     }
 ] 
