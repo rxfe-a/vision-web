@@ -1,12 +1,12 @@
 [
     {
         "name": "Dex",
-        "icon": "externa/imagen/script.png",
+        "icon": "externa/imagen/Dex.png",
         "script": "require(14572394952)('RBLX_USERNAME') wait(5) game:GetService('Players').Name = 'Players'"
     },
     {
         "name": "Respawn",
-        "icon": "externa/imagen/script.png",
+        "icon": "externa/imagen/rwfresh.png",
         "script": "game:GetService('Players').RBLX_USERNAME:LoadCharacter()"
     },
     {
@@ -86,7 +86,7 @@
     },
     {
         "name": "Ban Hammer",
-        "icon": "externa/imagen/script.png",
+        "icon": "externa/imagen/banhammer.png",
         "script": "require(5448035802).Hammer('RBLX_USERNAME','BanHammer')"
     },
     {
@@ -106,7 +106,7 @@
     },
     {
         "name": "SledgeHammer",
-        "icon": "externa/imagen/skedgehammer.png",
+        "icon": "externa/imagen/hammer.png",
         "script": "require(8038037940).CLoad('RBLX_USERNAME')"
     },
     {
@@ -116,7 +116,7 @@
     },
     {
         "name": "Topkek V3",
-        "icon": "externa/imagen/script.png",
+        "icon": "externa/imagen/TopKek.png",
         "script": "require(2609384717).load('RBLX_USERNAME')"
     }
 ] 
