@@ -118,5 +118,60 @@
         "name": "Topkek V3",
         "icon": "externa/imagen/TopKek.png",
         "script": "require(2609384717).load('RBLX_USERNAME')"
+    },
+    {
+        "name": "K00pkidd gui",
+        "icon": "externa/imagen/k00p.png",
+        "script": "require(12313085498).pipiu('RBLX_USERNAME')"
+    },
+    {
+        "name": "doges",
+        "icon": "externa/imagen/doge.png",
+        "script": "require(5115249013).fehack('RBLX_USERNAME')"
+    },
+    {
+        "name": "RopeWeb",
+        "icon": "externa/imagen/ball.png",
+        "script": "require(15884743161).RopeBall('RBLX_USERNAME')"
+    },
+    {
+        "name": "Wasp Fighter Jet",
+        "icon": "externa/imagen/wasp.png",
+        "script": "require(5860060462).load('RBLX_USERNAME')"
+    },
+    {
+        "name": "Wild Katana",
+        "icon": "externa/imagen/script.png",
+        "script": "require(14175063457)('RBLX_USERNAME')"
+    },
+    {
+        "name": "Gun Journer",
+        "icon": "externa/imagen/script.png",
+        "script": "require(14175074837)('RBLX_USERNAME')"
+    },
+    {
+        "name": "Bow Master",
+        "icon": "externa/imagen/script.png",
+        "script": "require(14175067340)('RBLX_USERNAME')"
+    },
+    {
+        "name": "Abyss Eye",
+        "icon": "externa/imagen/script.png",
+        "script": "require(14175105993)('RBLX_USERNAME')"
+    },
+    {
+        "name": "Wiron",
+        "icon": "externa/imagen/script.png",
+        "script": "require(7972125129).CLoad('RBLX_USERNAME')"
+    },
+    {
+        "name": "Road Rogue",
+        "icon": "externa/imagen/script.png",
+        "script": "require(7473216460).load('RBLX_USERNAME')"
+    },
+    {
+        "name": "Tiny Infernous",
+        "icon": "externa/imagen/script.png",
+        "script": "require(8828734242)('RBLX_USERNAME')"
     }
 ] 
