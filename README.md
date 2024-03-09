@@ -15,3 +15,8 @@ require(16434836259).load('CustomKey', 3)
 -- Replace CustomKey with something secret 
 -- Replace 3 with the amount of times you want it to check the Connection
 ```
+
+Then go to https://vision.rxfe.xyz/
+
+And in settings replace the Key with your Key that you loaded in the require
+and In the username put your username in case you want to use the script hub
