@@ -1,14 +1,14 @@
 {
   "name": "vision-web",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Vision Web Executor",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: Could not test no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Executor", "HTTP_Requests", "Roblox", "byfron"],
+  "author": "rxfe-a",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2"

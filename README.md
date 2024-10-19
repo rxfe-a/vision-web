@@ -1,6 +1,7 @@
 <h1>What is the vision executor</h1>
 <p>The vision executor is a web executor that is powered by HTTP Requests</p>
 
+- If you dont know what your doing then its probably best not to mess with the source code
 
 <p>Model https://create.roblox.com/store/asset/16434836259/NetworkConnectionReplicator</p>
 <b>You need to reupload the model if you want it to run on your custom domain!</b>
@@ -20,3 +21,6 @@ Then go to https://vision.rxfe.xyz/
 
 And in settings replace the Key with your Key that you loaded in the require
 and In the username put your username in case you want to use the script hub
+
+## ☢️⛔️ WARNING ☢️⛔️
+- If you are gonna use this project you must fully self host your resources in order for this project to work
