@@ -28,5 +28,6 @@ app.post('/key/:id', (req, res) => {
 });
 
 app.listen(port, () => {
+    console.log('Warning Vision will be entirely rewritten soon from scratch please make sure to keep your repository updated to the latest version.')
     console.log(`Server is listening on port ${port}`);
 });
