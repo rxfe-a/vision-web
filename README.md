@@ -1,5 +1,5 @@
 <h1>What is the vision executor</h1>
-<p>The vision executor is a web executor that is powered by HTTP Requests</p>
+<p><i>The vision executor is a web executor that is powered by HTTP Requests</i></p>
 
  > [!CAUTION]
 > Vision will be going under major reworkings in a few days and may not be stable
